@@ -185,7 +185,6 @@ function makeSphere (slices, stacks) {
     // fill in your code here.
     const radius = 0.5;
 
-    // Ensure we have at least a decagon and reasonable stacks for a spherical appearance.
     slices = Math.max(10, Math.floor(slices));
     stacks = Math.max(10, Math.floor(stacks));
 
